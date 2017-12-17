@@ -1,0 +1,337 @@
+/*主体容器*/
+.yt_container {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background-color: #fff;
+}
+/*头部通栏*/
+.yt_topBar {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    background-color: #069;
+    z-index: 10;
+}
+.icon_search {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 28px;
+    color: #fff;
+}
+/*主体内容*/
+.yt_main {
+    width: 100%;
+    height: 100%;
+    padding: 45px 0 55px 0;
+}
+.yt_main .yt_contentWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+/*搜索框*/
+.yt_main .yt_contentWrapper .yt_search {
+    margin-top: 10px;
+    padding: 0 10px;
+    height: 30px;
+}
+.yt_main .yt_contentWrapper .yt_search form {
+    display: flex;
+    display: -webkit-flex;
+    height: 30px;
+}
+.yt_main .yt_contentWrapper .yt_search form .input_search{
+    border-radius: 0;
+    height: 30px;
+    flex: 1;
+    text-align: left;
+    font-size:12px;
+    border: 1px solid #006699;
+    background-color: transparent;
+}
+.yt_main .yt_contentWrapper .yt_search form .search_btn {
+    flex:0 0 60px;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #006699;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+}
+/**/
+
+.yt_main .yt_contentWrapper .yt_banner {
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.yt_main .yt_contentWrapper .yt_banner a,
+.yt_main .yt_contentWrapper .yt_banner a img {
+    display: block;
+    width: 100%;
+    height: 65px;
+}
+.yt_classification {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0 10px;
+
+}
+.yt_classification a {
+    display: inline-block;
+    flex: 1;
+    width: 100%;
+
+}
+.yt_classification a img {
+    display: block;
+    width: 100%;
+}
+.yt_classification2 {
+    padding:  0 10px;
+    display: flex;
+    font-size: 0;
+}
+.yt_classification2 .rightWrapper {
+    display: inline-block;
+    flex: 0 0 33.333333333%;
+}
+.yt_classification2 .rightWrapper .right {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.yt_classification2 .rightWrapper .right a,
+.yt_classification2 .rightWrapper .right a img{
+    display: block;
+    width: 100%;
+    height:100%;
+    background: url("../img/active3.png")no-repeat;
+    background-size: contain;
+}
+.yt_classification2 .leftWrapper {
+    flex: 1;
+}
+.yt_classification2 .leftWrapper .left {
+    display: flex;
+}
+.yt_classification2 .leftWrapper .left a {
+    flex: 1;
+}
+.yt_classification2 .leftWrapper .left a img {
+    display: block;
+    width: 100%;
+}
+
+.title {
+    width: 100%;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+.title a ,.title a img{
+    display: block;
+    width: 100%;
+}
+.brand_wrapper {
+    display: flex;
+    display: -webkit-flex;
+}
+.brand_wrapper a {
+    display: inline-block;
+    flex: 1;
+}
+.brand_wrapper a img {
+    display: block;
+    width: 100%;
+}
+.yt_runingWrapper {
+    display: flex;
+    display: -webkit-flex;
+    padding: 0 10px;
+    margin:10px 0 10px;
+}
+.yt_runingWrapper a {
+    display: inline-block;
+    flex:1;
+    padding: 0 5px;
+}
+.yt_runingWrapper a .yt_runing {
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.yt_runingWrapper a .yt_runing img {
+    display: block;
+    width: 100%;
+}
+.yt_runingWrapper a .yt_runing .name {
+    padding: 0 10px;
+    height: 36px;
+    text-align: center;
+    font-size: 12px;
+    overflow: hidden;
+}
+.yt_runingWrapper a .yt_runing .price_wrapper {
+    padding: 0 10px;
+    text-align:center ;
+
+}
+.yt_runingWrapper a .yt_runing .price_wrapper span {
+    display: inline-block;
+    font-size: 14px;
+}
+.yt_runingWrapper a .yt_runing .price_wrapper .now_price {
+    color: red;
+    font-size:16px;
+    font-weight: 200;
+}
+.yt_runingWrapper a .yt_runing .price_wrapper .old_price {
+    color: #ccc;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+.yt_runingWrapper a .yt_runing .btn_buy {
+    width: 82px;
+    height: 32px;
+    margin:0 0 10px 0;
+}
+.yt_advert {
+    display: flex;
+    display: -webkit-flex;
+}
+.yt_advert .advert_left_wrapper{
+    flex: 0 0 178px;
+    width: 178px;
+}
+.yt_advert .advert_left_wrapper .advert_left {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction:column;
+}
+.yt_advert .advert_left_wrapper .advert_left a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.yt_advert .advert_left_wrapper .advert_left a {
+    display: block;
+    height: 70px;
+    padding: 0 0 4px;
+}
+.yt_advert .advert_left_wrapper .advert_left a:last-child {
+    padding: 0;
+}
+.yt_advert .advert_right {
+    flex: 1;
+    width: 100%;
+    height:auto;
+}
+.yt_advert .advert_right .advertItemWrapper {
+    display: flex;
+    display: -webkit-flex;
+    height: 70px;
+}
+.yt_advert .advert_right .advertItemWrapper a {
+    width: 100%;
+    flex:1;
+    height: 70px;
+}
+.yt_advert .advert_right .advertItemWrapper a img {
+    display: block;
+    width:100%;
+    height: 70px;
+}
+.brandStory_wrapper .brand_story {
+    display: flex;
+    display: -webkit-flex;
+}
+.brandStory_wrapper .brand_story a {
+    flex: 1;
+}
+.brandStory_wrapper .brand_story a img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.brandStory_wrapper .title2 {padding: 0}
+.file_info {
+    display: flex;
+    display: -webkit-flex;
+}
+.file_info a {
+    flex:1;
+}
+.file_info a img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+    /*底部导航栏*/
+.yt_tabs {
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    height: 55px;
+}
+.yt_tabs .yt_tabs_nav {
+    height: 55px;
+    background-color: #069;
+}
+.yt_tabs .yt_tabs_nav a {
+    font-size: 12px;
+    color: #fff;
+}
+.yt_tabs .yt_tabs_nav a .mui-icon {
+    font-size: 18px;
+}
+
+.yt_tabs .yt_tabs_nav a.mui-active {
+    color: darkorange;
+    font-weight:200;
+}
+
+/*分享*/
+.share_wrapper {
+
+}
+.share_wrapper .mui-table-view-cell .share_container{
+    float: left;
+    width: 25%;
+    margin-right:10px;
+    text-align: center;
+}
+.share_wrapper .mui-table-view-cell .share_container a {
+    display: inline-block;
+}
+.share_wrapper .mui-table-view-cell .share_container a .share_icon_w {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;border-radius: 50%;
+    background-color: #5aba7a;
+    text-align: center;
+}
+.share_wrapper .mui-table-view-cell .share_container a .share_icon_w i {
+    color: #fff;
+    font-size: 36px;
+    margin-top: 6px;
+}
+.share_wrapper .mui-table-view-cell .share_container a p {
+    font-size: 14px;
+    margin-top:5px;
+}
+#sheet1 .off {
+    font-size: 14px;
+    color: #333333;
+}

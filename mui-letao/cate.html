@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hello MUI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!--标准mui.css-->
+    <link rel="stylesheet" href="resource/mui/css/mui.min.css">
+    <!--App自定义的css-->
+    <link rel="stylesheet" type="text/css" href="css/app.css"/>
+    <link rel="stylesheet" href="resource/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/cate.css">
+    <style>
+        .mui-row.mui-fullscreen > [class*="mui-col-"] {
+            height: 100%;
+        }
+
+        .mui-col-xs-3,
+        .mui-control-content {
+            overflow-y: auto;
+            height: 100%;
+        }
+
+        .mui-segmented-control .mui-control-item {
+            line-height: 50px;
+            width: 100%;
+        }
+
+        .mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active {
+            background-color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+<!--<header class="mui-bar mui-bar-nav">-->
+<!--<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>-->
+<!--<h1 class="mui-title">侧面选项卡-div模式</h1>-->
+<!--</header>-->
+<!--头部通栏-->
+<header class="yt_topBar mui-bar mui-bar-nav">
+    <div class="yt_topBar_w">
+        <div class="back">
+            <a href="#" class="mui-icon mui-icon-left-nav icon_search2"></a>
+        </div>
+        <div class="form_wrapper">
+            <form action="#">
+                <input type="search" class="input_search" placeholder="搜索你喜欢的商品">
+                <a href="#" class="fa fa-search icon_search"></a>
+            </form>
+        </div>
+    </div>
+
+</header>
+<div class="mui-content mui-row mui-fullscreen">
+    <div class="mui-col-xs-2">
+        <div id="segmentedControls" class="mui-segmented-control mui-segmented-control-inverted mui-segmented-control-vertical">
+            <a class="mui-control-item mui-active" href="#content1">运动馆</a>
+            <a class="mui-control-item" href="#content2">女士馆</a>
+            <a class="mui-control-item" href="#content3">男士馆</a>
+            <a class="mui-control-item" href="#content4">帆布馆</a>
+            <a class="mui-control-item" href="#content5">户外馆</a>
+        </div>
+    </div>
+    <div id="segmentedControlContents" class="mui-col-xs-10" style="border-left: 1px solid #c8c7cc;">
+        <div id="content1" class="mui-control-content mui-active">
+           <div class="container">
+               <h3 class="title">热门品牌购</h3>
+               <div class="brand_container">
+                   <div class="brand_wrapper">
+                       <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                       <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                       <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                   </div>
+                   <div class="brand_wrapper">
+                       <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                       <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                       <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                   </div>
+                   <div class="brand_wrapper">
+                       <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                       <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                       <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                   </div>
+                   <div class="brand_wrapper">
+                       <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                       <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                       <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                   </div>
+                   <div class="brand_wrapper">
+                       <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                       <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                       <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                   </div>
+               </div>
+           </div>
+            <div class="container">
+                <h3 class="title">热门品牌购</h3>
+                <div class="brand_container">
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content2" class="mui-control-content">
+            <div class="container">
+                <h3 class="title">热门品牌购</h3>
+                <div class="brand_container">
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_5.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="title">热门品牌购</h3>
+                <div class="brand_container">
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_3.png" alt=""><p>耐克</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content3" class="mui-control-content">
+            <div class="container">
+                <h3 class="title">热门品牌购</h3>
+                <div class="brand_container">
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_man_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_man_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_man_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_man_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_man_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_1.png" alt=""><p>耐克</p></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="title">热门品牌购</h3>
+                <div class="brand_container">
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_man_running_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_running_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_running_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_man_running_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_running_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_running_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_man_running_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_running_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_running_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_man_running_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_running_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_running_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_man_running_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_running_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_man_running_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content4" class="mui-control-content">
+            <div class="container">
+                <h3 class="title">热门品牌购</h3>
+                <div class="brand_container">
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_fanbu_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_fanbu_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_fanbu_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_fanbu_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_fanbu_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="title">热门品牌购</h3>
+                <div class="brand_container">
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_fanbu_running_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_running_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_running_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_fanbu_running_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_running_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_running_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_fanbu_running_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_running_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_running_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_fanbu_running_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_running_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_running_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_fanbu_running_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_running_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_fanbu_running_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content5" class="mui-control-content">
+            <div class="container">
+                <h3 class="title">热门品牌购</h3>
+                <div class="brand_container">
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_huwai_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_2.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_huwai_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_huwai_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_huwai_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_huwai_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h3 class="title">热门品牌购</h3>
+                <div class="brand_container">
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_huwai_running_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_running_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_running_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_huwai_running_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_running_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_running_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_huwai_running_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_running_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_running_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_huwai_running_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_running_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_running_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                    <div class="brand_wrapper">
+                        <a href=""><img src="img/cate_brand1_huwai_running_1.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_running_2.png" alt=""><p>耐克</p></a>
+                        <a href=""><img src="img/cate_brand1_huwai_running_1.png" alt=""><p>耐克</p></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--底部的导航栏-->
+<footer class="yt_tabs">
+    <nav class="mui-bar mui-bar-tab yt_tabs_nav">
+        <a class="mui-tab-item" href="index.html">
+            <span class="mui-icon fa fa-home"></span>
+            <span class="mui-tab-label">首页</span>
+        </a>
+        <a class="mui-tab-item mui-active" href="#">
+            <span class="mui-icon fa fa-bars"></span>
+            <span class="mui-tab-label">分类</span>
+        </a>
+        <a class="mui-tab-item" href="shopcart.html">
+            <span class="mui-icon fa fa-shopping-cart"></span>
+            <span class="mui-tab-label">购物车</span>
+        </a>
+        <a class="mui-tab-item" href="setting.html">
+            <span class="mui-icon fa fa fa-user"></span>
+            <span class="mui-tab-label">会员中心</span>
+        </a>
+    </nav>
+</footer>
+<script src="resource/mui/js/mui.min.js"></script>
+<script src="js/cate.js"></script>
+<script src="js/tabsClick.js"></script>
+</body>
+
+</html>

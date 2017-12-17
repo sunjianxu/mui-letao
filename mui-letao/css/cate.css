@@ -1,0 +1,132 @@
+/*主体容器*/
+.yt_container {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background-color: #fff;
+}
+/*头部通栏*/
+.yt_topBar {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background-color: #069;
+}
+.yt_topBar_w {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    height: 100%;
+}
+.yt_topBar_w .back {
+    flex: 0 0 35px;
+    width: 18px;
+    font-size:18px;
+    color: #fff;
+}
+.yt_topBar_w .back a {
+    color: #fff;
+}
+.yt_topBar_w .form_wrapper {
+    flex:1;
+    padding-right: 35px;
+}
+.form_wrapper form {
+    height: 45px;
+}
+.form_wrapper form input[type="search"] {
+    display: block;
+    height: 30px;
+    margin-top: 7.5px;
+    border: 1px solid #fff;
+    text-align: left;
+    color: #000;
+    font-size: 12px;
+    background-color: #fff;
+
+}
+.form_wrapper form .icon_search {
+    position: absolute;
+    right: 10px;
+    top:13.5px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
+/*主体内容*/
+.yt_main {
+    width: 100%;
+    height: 100%;
+    padding: 45px 0 55px 0;
+}
+.yt_main .yt_contentWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.container .title {
+    font-size: 14px;
+    color: #333333;
+    font-weight: normal;
+    padding-top:10px;
+
+}
+.mui-control-content {
+    padding: 10px 10px 0;
+}
+.brand_container {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.brand_wrapper {
+    display: flex;
+    display: -webkit-flex;
+}
+.brand_wrapper a {
+    -webkit-flex: 1;
+    flex: 1;
+    padding: 15px;
+}
+.brand_wrapper a img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.brand_wrapper a p {
+    text-align: center;
+    font-size: 12px;
+}
+
+/*底部导航栏*/
+.yt_tabs {
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    height: 55px;
+}
+.yt_tabs .yt_tabs_nav {
+    height: 55px;
+    background-color: #069;
+}
+.yt_tabs .yt_tabs_nav a {
+    font-size: 12px;
+    color: #fff;
+}
+.yt_tabs .yt_tabs_nav a .mui-icon {
+    font-size: 18px;
+}
+
+.yt_tabs .yt_tabs_nav a.mui-active {
+    color: darkorange;
+    font-weight:200;
+}

@@ -1,0 +1,233 @@
+/*主体容器*/
+.yt_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+/*顶部通栏*/
+.yt_topBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    background-color: #069;
+    z-index: 10;
+}
+
+.icon_search {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 28px;
+    color: #fff;
+}
+
+/*主体内容*/
+.yt_main {
+    padding: 45px 0 55px 0;
+    width: 100%;
+    height: 100%;
+}
+
+.yt_main .yt_contentWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/*搜索框*/
+.yt_main .yt_contentWrapper .yt_search {
+    margin-top: 10px;
+    padding: 0 10px;
+    height: 30px;
+}
+
+.yt_main .yt_contentWrapper .yt_search form {
+    display: flex;
+    display: -webkit-flex;
+    height: 30px;
+    position: relative;
+}
+
+.yt_main .yt_contentWrapper .yt_search form .input_search {
+    border-radius: 0;
+    height: 30px;
+    flex: 1;
+    text-align: left;
+    font-size: 12px;
+    border: 1px solid #006699;
+    background-color: transparent;
+    padding-left: 28px;
+}
+
+.icon_input {
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    font-size: 16px;
+    color: #666;
+}
+
+.yt_main .yt_contentWrapper .yt_search form .search_btn {
+    flex: 0 0 60px;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #006699;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+}
+
+/***/
+/*商品排序*/
+.products_sorting {
+    width: 100%;
+    height: 37px;
+    margin-top: 3px;
+
+}
+.products_sorting .sorting_nav {
+    display: flex;
+    display: -webkit-flex;
+    height: 100%;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.products_sorting .sorting_nav a {
+    display: inline-block;
+    height: 22px;
+    flex:1;
+    -webkit-flex: 1;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 7.5px;
+    border-right: 1px solid #ccc;
+    color: #333;
+}
+.products_sorting .sorting_nav a:last-child {
+    border-right: none;
+}
+
+.yt_runingWrapper {
+    display: flex;
+    display: -webkit-flex;
+
+}
+
+.yt_runingWrapper a {
+    display: inline-block;
+    flex: 1;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+.yt_runingWrapper a .yt_runing {
+    text-align: center;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+.yt_runingWrapper a .yt_runing img {
+    display: block;
+    width: 100%;
+}
+
+.yt_runingWrapper a .yt_runing .name {
+    padding: 0 10px;
+    height: 36px;
+    text-align: center;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.yt_runingWrapper a .yt_runing .price_wrapper {
+    padding: 0 10px;
+    text-align: center;
+
+}
+
+.yt_runingWrapper a .yt_runing .price_wrapper span {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.yt_runingWrapper a .yt_runing .price_wrapper .now_price {
+    color: red;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.yt_runingWrapper a .yt_runing .price_wrapper .old_price {
+    color: #ccc;
+    text-decoration: line-through;
+    margin: 0 5px 0 5px;
+}
+.yt_runingWrapper a .yt_runing .price_wrapper .discount {
+    color: red;
+    font-size: 12px;
+    font-weight: 200;
+}
+.yt_runingWrapper a .yt_runing .btn_buy {
+    width: 82px;
+    height: 32px;
+    margin: 0 0 10px 0;
+}
+.btn_wrapper {font-size: 0}
+.btn_wrapper .cart_wrapper {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left:10px;
+    background-color: #007aff;
+}
+.btn_wrapper .cart_wrapper .icon_cart {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+.btn_wrapper .sales_volume {
+    font-size: 12px;
+    color: #666;
+    margin-right: 10px;
+}
+/*底部导航栏*/
+.yt_tabs {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+
+}
+
+.yt_tabs .yt_tabs_nav {
+    height: 55px;
+    background-color: #069;
+}
+
+.yt_tabs .yt_tabs_nav a {
+    font-size: 12px;
+    color: #fff;
+}
+
+.yt_tabs .yt_tabs_nav a .mui-icon {
+    font-size: 18px;
+}
+
+.yt_tabs .yt_tabs_nav a.mui-active {
+    color: darkorange;
+    font-weight: 200;
+}
